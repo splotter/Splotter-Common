@@ -1,0 +1,23 @@
+﻿<xs:schema targetNamespace="http://tempuri.org/Splotter.Utility.Testing.Test.Database.xsd"
+           xmlns:mstns="http://tempuri.org/Splotter.Utility.Testing.Test.Database.xsd"
+           xmlns="http://tempuri.org/Splotter.Utility.Testing.Test.Database.xsd"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:sql="urn:schemas-microsoft-com:mapping-schema"
+           elementFormDefault="qualified">
+  <xs:element name="Database"  sql:is-constant="1">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:integer" />
+              <xs:element name="Value" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

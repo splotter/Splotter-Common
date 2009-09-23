@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{87496D6B-8510-444C-8E48-C10DD5198C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common.Persistence.Linq", "Splotter.Common.Linq\Splotter.Common.Persistence.Linq.csproj", "{93A112CE-5D55-40EC-83CE-21D87D468C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common.Persistence.NHibernate", "Splotter.Common.NHibernate\Splotter.Common.Persistence.NHibernate.csproj", "{D6F09078-1D89-451C-B050-F9D974E5E58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common.Persistence", "Splotter.Common.Persistence\Splotter.Common.Persistence.csproj", "{45E14F4E-D076-4039-830D-051E812031DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common.PersistenceTest", "Splotter.Common.PersistenceTest\Splotter.Common.PersistenceTest.csproj", "{B640DBCA-63E2-412B-A28E-8618940A628B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common", "Splotter.Common\Splotter.Common.csproj", "{F751FC5A-FBAB-4E1C-AB2B-5E545E12B681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splotter.Common.Test", "Splotter.Common.Test\Splotter.Common.Test.csproj", "{CAB304EB-D391-45F9-A210-E514BE758D5D}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A112CE-5D55-40EC-83CE-21D87D468C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A112CE-5D55-40EC-83CE-21D87D468C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A112CE-5D55-40EC-83CE-21D87D468C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A112CE-5D55-40EC-83CE-21D87D468C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F09078-1D89-451C-B050-F9D974E5E58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F09078-1D89-451C-B050-F9D974E5E58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F09078-1D89-451C-B050-F9D974E5E58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F09078-1D89-451C-B050-F9D974E5E58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E14F4E-D076-4039-830D-051E812031DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E14F4E-D076-4039-830D-051E812031DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E14F4E-D076-4039-830D-051E812031DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E14F4E-D076-4039-830D-051E812031DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B640DBCA-63E2-412B-A28E-8618940A628B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B640DBCA-63E2-412B-A28E-8618940A628B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B640DBCA-63E2-412B-A28E-8618940A628B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B640DBCA-63E2-412B-A28E-8618940A628B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F751FC5A-FBAB-4E1C-AB2B-5E545E12B681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F751FC5A-FBAB-4E1C-AB2B-5E545E12B681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F751FC5A-FBAB-4E1C-AB2B-5E545E12B681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F751FC5A-FBAB-4E1C-AB2B-5E545E12B681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB304EB-D391-45F9-A210-E514BE758D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB304EB-D391-45F9-A210-E514BE758D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB304EB-D391-45F9-A210-E514BE758D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB304EB-D391-45F9-A210-E514BE758D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B640DBCA-63E2-412B-A28E-8618940A628B} = {87496D6B-8510-444C-8E48-C10DD5198C92}
+		{CAB304EB-D391-45F9-A210-E514BE758D5D} = {87496D6B-8510-444C-8E48-C10DD5198C92}
+	EndGlobalSection
+EndGlobal
